@@ -62,7 +62,7 @@ if(Input::exists()) {
 				'required' => true,
 				'isvalid' => true,
 				'min' => 3,
-				'max' => 20,
+				'max' => 16,
 				'unique' => 'users'
 			);
 			$to_validation['username'] = array(
@@ -77,7 +77,7 @@ if(Input::exists()) {
 				'required' => true,
 				'isvalid' => true,
 				'min' => 3,
-				'max' => 20,
+				'max' => 16,
 				'unique' => 'users'
 			);
 			$mcname = htmlspecialchars(Input::get('username'));
